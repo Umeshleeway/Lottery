@@ -1,0 +1,27 @@
+/* Torcchi and Lato fonts */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Poppins-bold';
+        src: url("./fontfamily/Poppins-Bold.ttf");
+    }
+        @font-face {
+            font-family: 'Poppins-Medium';
+            src: url("./fontfamily/Poppins-Medium.ttf");
+        }
+        @font-face {
+            font-family: 'poppins-Regular';
+            src: url("./fontfamily/Poppins-Regular.ttf");
+        }
+        @font-face {
+            font-family: 'poppins-SemiBold';
+            src: url("./fontfamily/Poppins-SemiBold.ttf");
+        }
+    
+}
+
