@@ -4,7 +4,7 @@ module.exports = {
   theme: {
   
     screens: {
-     
+     xs:'280px',
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -27,6 +27,7 @@ module.exports = {
       }],
       'h3': ['34px', {
         lineHeight: '62px',
+        
       }],
       'h4': ['24px', {
         lineHeight: '35px',
